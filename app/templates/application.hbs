@@ -1,5 +1,9 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
 
+<p>
+    Click on start and watch the console, the app will transition back and forth between routes, eventually you will see the error. I have it set to toggle 100 times, that is enough to make it crash on my machine
+</p>
+{{#link-to "route1"}}Start{{/link-to}}<br>
+
+<div>
 {{outlet}}
+</div>
