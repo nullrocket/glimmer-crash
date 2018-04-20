@@ -1,5 +1,5 @@
 import Controller from '@ember/controller';
 
 export default Controller.extend({
-  items: new Array(1000).fill('component in route 2')
+  items: new Array(4000).fill('component in route 2')
 });
