@@ -7,7 +7,7 @@ export default Route.extend({
 
       later(this,()=>{
         this.incrementProperty('count');
-      if(this.get('count')< 100) {
+      if(this.get('count')< 200) {
         this.transitionTo('route1');
       }
     },50);
